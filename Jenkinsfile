@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'mwilson/marvel-database:latest'
+        DOCKER_IMAGE = 'techwithmj/marvel-database:latest'
     }
 
     stages {
